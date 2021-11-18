@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.wrapper{
+   width: 1170px;
+   margin: auto;
+   font-family: fantasy;
+}
+header{
+     background-image: linear-gradient(to right bottom, #fe9e14, #f0a032, #e2a146, #d5a159, #c8a16a, #d1a57f, #d4ab93, #d4b2a6, #e1c3c4, #e9d7de, #f1ebf1, #ffffff);
+     height: 100vh;
+     -webkit-background-size: cover;
+     background-size: cover;
+     background-position: center center;
+     position: relative;
+}
+.nav-area{
+     float: right;
+     list-style: none;
+     margin-top: 30px;
+}
+.nav-area li{
+    display: inline-block;
+}
+.nav-area li a{
+      color: black;
+      text-decoration: none;
+      padding: 5px 20px;
+      font-family: sans-serif;
+      font-size: 16px;
+}
+.nav-area li a:hover{
+     background: #FFA500;
+     color: #333;
+}
+.login{
+     float: right;
+     list-style: none;
+}
+.logo h1{
+  float: left;
+  margin-top: 2%;
+  text-transform: uppercase;
+  text-decoration-line: underline;
+}
+.cow{
+     position: absolute;
+     margin: 20% 30% 40% 60%;
+}
+.welcome-text{
+      position: absolute;
+      width: 600px;
+      height: 300px;
+      margin: 20% 20%;
+      text-align: center;
+}
+.welcome-text h3{
+        text-align: left;
+        color: black;
+        text-transform: uppercase;
+        font-family: sans-serif;
+        font-size: 50px;
+}
+.welcome-text a{
+      border: 1px solid #ffffff;
+      border-radius: 5px;
+      background-color: none;
+      padding: 10px 25px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 14px;
+      margin-top: 20px;
+      margin-right: 250px;
+      display: inline-block;
+      color: black;
+
+}
+.welcome-text a:hover{
+     background: orange;
+     color: #333;
+}
